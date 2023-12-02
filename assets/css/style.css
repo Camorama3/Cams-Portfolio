@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(49, 158, 158);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.header ul {
+    list-style-type: none;
+
+    /* text-align: right; */
+}
+
+.header div {
+    
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
