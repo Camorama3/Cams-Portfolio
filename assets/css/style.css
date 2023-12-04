@@ -31,7 +31,7 @@ body {
                 display: inline-block;
 
                 & a {
-                    color: #e22929;
+                    color: #2c6e7c;
                     text-decoration: underline;
                     text-underline-offset: 10px;
                 }
@@ -42,13 +42,6 @@ body {
 
 .subtitle {
     position: relative;
-
-    & div {
-        overflow: hidden;
-        max-height: 400px;
-        width: 100%;
-        text-indent: -200px;
-    }
 
     & p {
         position: absolute;
@@ -64,6 +57,23 @@ body {
     }
 }
 
+.subtitle-background-image {
+    overflow: hidden;
+    max-height: 400px;
+    width: 100%;
+    text-indent: -200px;
+}
+
+.subtitle-profilepicture {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.round {
+    border-radius: 50%
+}
+
 .info-container {
     position: relative;
     display: flex;
@@ -71,6 +81,7 @@ body {
 
 .info-title {
     flex: 0;
+    min-width: 125px;
     margin-top: 20px;
     padding-left: 50px;
     padding-right: 20px;
